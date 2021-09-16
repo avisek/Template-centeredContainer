@@ -2,8 +2,25 @@
   box-sizing: border-box;
 }
 
+html, body {
+  display: grid;
+  height: 100%;
+}
+
 body {
   margin: 0;
   font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  display: grid;
+  place-items: center;
+  padding: 1rem;
+  background: slategray;
+}
+
+.Container {
+  position: relative;
+  padding: 1rem;
+  background: white;
+  border-radius: 1rem;
+  box-shadow: 0 0 1rem 0 hsl(0deg 0% 0% / 35%);
 }
 
